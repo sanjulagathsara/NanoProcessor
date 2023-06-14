@@ -1,0 +1,56 @@
+Lab Task:
+
+The program (calculation of total between the numbers 1 and 3) immediately at the start, and also at the press of a reset button. Final answer should be stored in R7, and should be displayed via both LEDs and 7Segment display.
+
+The instructions for the given task are already uploaded to the programme ROM.
+
+"101110000000" -- 0 MOVI R7,0
+"100010000001" -- 1 MOVI R1,1
+"100100000010" -- 2 MOVI R2,2
+"100110000011" -- 3 MOVI R3,3
+"001110010000" -- 4 ADD R7,R1
+"001110100000" -- 5 ADD R7,R2
+"001110110000" -- 6 ADD R7,R3
+"110000000111" -- 7 JZR R0,7
+
+The CPU is upgraded for display the program counter value, Register Number and the Register value in the 7-Segment display.
+
+------------------------------------------
+
+Buttons:
+Reset Button => BtnC (Center Button)
+
+LEDs:
+Register 7 Value => LED0, LED1, LED2, LED3
+Overflow => LED14
+Zero => LED15
+
+7-Segment Display:
+Anode "0111" => Program Counter
+Anode "1011" =>
+Anode "1101" => Register Number
+Anode "1110" => Register Value
+
+------------------------------------------
+
+This CPU is also upgraded for move user given value to a register. The value is given by using switches.
+
+Special Instruction => "10RRR010dddd" (MOVI RRR <- dddd)
+
+Switches:
+User Input => SW0, SW1, SW2, SW3
+
+------------------------------------------
+
+You can select any register to display on the 7-Segment Display. The Register number is also given by using switches.
+
+Switches:
+Register to display => SW13, SW14, SW15
+
+
+
+
+
+
+
+
