@@ -1,0 +1,24 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../NanoProcessor_ExtraUpgraded.srcs/sources_1/imports/VivadoProjects/2Way4BitMux/2Way4BitMux.srcs/sources_1/new/2Way4BitMux.vhd" \
+"../../../../NanoProcessor_ExtraUpgraded.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/new/8Way4BitMux.vhd" \
+"../../../../NanoProcessor_ExtraUpgraded.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/AddSubUnit.vhd" \
+"../../../../NanoProcessor_ExtraUpgraded.srcs/sources_1/imports/VivadoProjects/Adder3Bit/Adder3Bit.srcs/sources_1/new/Adder3Bit.vhd" \
+"../../../../NanoProcessor_ExtraUpgraded.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_2_to_4.vhd" \
+"../../../../NanoProcessor_ExtraUpgraded.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_3_to_8.vhd" \
+"../../../../NanoProcessor_ExtraUpgraded.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/FA.vhd" \
+"../../../../NanoProcessor_ExtraUpgraded.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/HA.vhd" \
+"../../../../NanoProcessor_ExtraUpgraded.srcs/sources_1/imports/VivadoProjects/InstructionDecoder/InstructionDecoder.srcs/sources_1/new/InstructionDecoder.vhd" \
+"../../../../NanoProcessor_ExtraUpgraded.srcs/sources_1/imports/new/LUT_16_7.vhd" \
+"../../../../NanoProcessor_ExtraUpgraded.srcs/sources_1/imports/VivadoProjects/Mux2Way3Bit/Mux2Way3Bit.srcs/sources_1/new/Mux2Way3Bit.vhd" \
+"../../../../NanoProcessor_ExtraUpgraded.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd" \
+"../../../../NanoProcessor_ExtraUpgraded.srcs/sources_1/new/NanoProcessor.vhd" \
+"../../../../NanoProcessor_ExtraUpgraded.srcs/sources_1/imports/VivadoProjects/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.vhd" \
+"../../../../NanoProcessor_ExtraUpgraded.srcs/sources_1/imports/VivadoProjects/ProgramROM/ProgramROM.srcs/sources_1/new/ProgramROM.vhd" \
+"../../../../NanoProcessor_ExtraUpgraded.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Reg.vhd" \
+"../../../../NanoProcessor_ExtraUpgraded.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd" \
+"../../../../NanoProcessor_ExtraUpgraded.srcs/sources_1/imports/new/Slow_Clk.vhd" \
+"../../../../NanoProcessor_ExtraUpgraded.srcs/sim_1/new/NanoProcessorSimulation.vhd" \
+
+# Do not sort compile order
+nosort

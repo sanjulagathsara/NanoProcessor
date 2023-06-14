@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2018.1 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="36" Path="C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="30fd8299448c46a3afe9e49ca1f721db"/>
+    <Option Name="Part" Val="xc7a35tcpg236-1"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="CompiledLibDirXSim" Val=""/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirIES" Val="$PCACHEDIR/compile_simlib/ies"/>
+    <Option Name="CompiledLibDirXcelium" Val="$PCACHEDIR/compile_simlib/xcelium"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="BoardPart" Val="digilentinc.com:basys3:part0:1.2"/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="ProjectType" Val="Default"/>
+    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
+    <Option Name="IPCachePermission" Val="read"/>
+    <Option Name="IPCachePermission" Val="write"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
+    <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
+    <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
+    <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="DSAVendor" Val="xilinx"/>
+    <Option Name="DSABoardId" Val="basys3"/>
+    <Option Name="DSANumComputeUnits" Val="60"/>
+    <Option Name="WTXSimLaunchSim" Val="106"/>
+    <Option Name="WTModelSimLaunchSim" Val="0"/>
+    <Option Name="WTQuestaLaunchSim" Val="0"/>
+    <Option Name="WTIesLaunchSim" Val="0"/>
+    <Option Name="WTVcsLaunchSim" Val="0"/>
+    <Option Name="WTRivieraLaunchSim" Val="0"/>
+    <Option Name="WTActivehdlLaunchSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="0"/>
+    <Option Name="WTModelSimExportSim" Val="0"/>
+    <Option Name="WTQuestaExportSim" Val="0"/>
+    <Option Name="WTIesExportSim" Val="0"/>
+    <Option Name="WTVcsExportSim" Val="0"/>
+    <Option Name="WTRivieraExportSim" Val="0"/>
+    <Option Name="WTActivehdlExportSim" Val="0"/>
+    <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
+    <Option Name="XSimRadix" Val="hex"/>
+    <Option Name="XSimTimeUnit" Val="ns"/>
+    <Option Name="XSimArrayDisplayLimit" Val="1024"/>
+    <Option Name="XSimTraceLimit" Val="65536"/>
+    <Option Name="SimTypes" Val="rtl"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/2Way4BitMux/2Way4BitMux.srcs/sources_1/new/2Way4BitMux.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../2Way4BitMux/2Way4BitMux.srcs/sources_1/new/2Way4BitMux.vhd"/>
+          <Attr Name="ImportTime" Val="1684829082"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/new/8Way4BitMux.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../8Way4BitMux/8Way4BitMux.srcs/sources_1/new/8Way4BitMux.vhd"/>
+          <Attr Name="ImportTime" Val="1684825466"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/AddSubUnit.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/AddSubUnit.vhd"/>
+          <Attr Name="ImportTime" Val="1684351814"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/Adder3Bit/Adder3Bit.srcs/sources_1/new/Adder3Bit.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Adder3Bit/Adder3Bit.srcs/sources_1/new/Adder3Bit.vhd"/>
+          <Attr Name="ImportTime" Val="1684831567"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_2_to_4.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_2_to_4.vhd"/>
+          <Attr Name="ImportTime" Val="1679400714"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_3_to_8.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_3_to_8.vhd"/>
+          <Attr Name="ImportTime" Val="1679485943"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/FA.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/FA.vhd"/>
+          <Attr Name="ImportTime" Val="1678809671"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/HA.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/HA.vhd"/>
+          <Attr Name="ImportTime" Val="1678800125"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/InstructionDecoder/InstructionDecoder.srcs/sources_1/new/InstructionDecoder.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../InstructionDecoder/InstructionDecoder.srcs/sources_1/new/InstructionDecoder.vhd"/>
+          <Attr Name="ImportTime" Val="1685477926"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/LUT_16_7.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab 7/Lab 7.srcs/sources_1/new/LUT_16_7.vhd"/>
+          <Attr Name="ImportTime" Val="1683178807"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/Mux2Way3Bit/Mux2Way3Bit.srcs/sources_1/new/Mux2Way3Bit.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Mux2Way3Bit/Mux2Way3Bit.srcs/sources_1/new/Mux2Way3Bit.vhd"/>
+          <Attr Name="ImportTime" Val="1684830082"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/VivadoProjects/Mux8Way12Bit/Mux8Way12Bit.srcs/sources_1/new/Mux8Way12Bit.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../RAM/RAM.srcs/sources_1/imports/VivadoProjects/Mux8Way12Bit/Mux8Way12Bit.srcs/sources_1/new/Mux8Way12Bit.vhd"/>
+          <Attr Name="ImportTime" Val="1686303939"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd"/>
+          <Attr Name="ImportTime" Val="1679491566"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.vhd"/>
+          <Attr Name="ImportTime" Val="1684869042"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/new/RAM.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../RAM/RAM.srcs/sources_1/new/RAM.vhd"/>
+          <Attr Name="ImportTime" Val="1686305206"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Reg.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../RegisterBank/RegisterBank.srcs/sources_1/imports/new/Reg.vhd"/>
+          <Attr Name="ImportTime" Val="1684866228"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/RegRam.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../RegRam/RegRam.srcs/sources_1/new/RegRam.vhd"/>
+          <Attr Name="ImportTime" Val="1686306833"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd"/>
+          <Attr Name="ImportTime" Val="1684866582"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/Slow_Clk.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Lab 5/Lab 5.srcs/sources_1/new/Slow_Clk.vhd"/>
+          <Attr Name="ImportTime" Val="1683623091"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/NanoProcessor.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Nanoprocessor/Nanoprocessor.srcs/sources_1/new/NanoProcessor.vhd"/>
+          <Attr Name="ImportTime" Val="1685559856"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="NanoProcessor"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <File Path="$PSRCDIR/constrs_1/imports/VivadoProjects/Basys3Labs.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Basys3Labs.xdc"/>
+          <Attr Name="ImportTime" Val="1679595716"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sim_1/new/NanoProcessorSimulation.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Nanoprocessor/Nanoprocessor.srcs/sim_1/new/NanoProcessorSimulation.vhd"/>
+          <Attr Name="ImportTime" Val="1685559211"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/Nanoprocessor/NanoProcessorSimulation_behav.wcfg">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Nanoprocessor/NanoProcessorSimulation_behav.wcfg"/>
+          <Attr Name="ImportTime" Val="1685549608"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/NanoProcessorSimulation_func_impl.wcfg">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../NanoProcessor_ExtraUpgraded/NanoProcessorSimulation_func_impl.wcfg"/>
+          <Attr Name="ImportTime" Val="1685561857"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="NanoProcessorSimulation"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../Nanoprocessor/NanoProcessorSimulation_behav.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../NanoProcessor_ExtraUpgraded/NanoProcessorSimulation_func_impl.wcfg"/>
+        <Option Name="NLNetlistMode" Val="funcsim"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+    <Simulator Name="ActiveHDL">
+      <Option Name="Description" Val="Active-HDL Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="10">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+  </Runs>
+  <Board>
+    <Jumpers/>
+  </Board>
+</Project>

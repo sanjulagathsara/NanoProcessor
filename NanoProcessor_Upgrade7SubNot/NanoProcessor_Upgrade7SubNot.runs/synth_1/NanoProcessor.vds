@@ -1,0 +1,648 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jun 13 14:07:03 2023
+# Process ID: 44244
+# Current directory: C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.runs/synth_1
+# Command line: vivado.exe -log NanoProcessor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source NanoProcessor.tcl
+# Log file: C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.runs/synth_1/NanoProcessor.vds
+# Journal file: C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source NanoProcessor.tcl -notrace
+Command: synth_design -top NanoProcessor -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 34268 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 384.035 ; gain = 96.656
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-2551] possible infinite loop; process does not have a wait statement [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/new/RAM.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'NanoProcessor' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/new/NanoProcessor.vhd:17]
+INFO: [Synth 8-3491] module 'InstructionDecoder' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/InstructionDecoder/InstructionDecoder.srcs/sources_1/new/InstructionDecoder.vhd:4' bound to instance 'InstructionDecoder0' of component 'InstructionDecoder' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/new/NanoProcessor.vhd:138]
+INFO: [Synth 8-638] synthesizing module 'InstructionDecoder' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/InstructionDecoder/InstructionDecoder.srcs/sources_1/new/InstructionDecoder.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'InstructionDecoder' (1#1) [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/InstructionDecoder/InstructionDecoder.srcs/sources_1/new/InstructionDecoder.vhd:18]
+INFO: [Synth 8-3491] module 'RegisterBank' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd:7' bound to instance 'RegisterBank0' of component 'RegisterBank' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/new/NanoProcessor.vhd:157]
+INFO: [Synth 8-638] synthesizing module 'RegisterBank' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd:22]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:34' bound to instance 'Decoder' of component 'Decoder_3_to_8' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd:47]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_0' of component 'decoder_2_to_4' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_2_to_4.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (2#1) [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_2_to_4.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_1' of component 'decoder_2_to_4' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (3#1) [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Reg.vhd:5' bound to instance 'Reg0' of component 'Reg' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'Reg' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Reg.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (4#1) [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Reg.vhd:13]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Reg.vhd:5' bound to instance 'Reg1' of component 'Reg' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd:59]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Reg.vhd:5' bound to instance 'Reg2' of component 'Reg' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd:66]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Reg.vhd:5' bound to instance 'Reg3' of component 'Reg' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd:73]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Reg.vhd:5' bound to instance 'Reg4' of component 'Reg' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd:80]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Reg.vhd:5' bound to instance 'Reg5' of component 'Reg' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd:87]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Reg.vhd:5' bound to instance 'Reg6' of component 'Reg' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd:94]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Reg.vhd:5' bound to instance 'Reg7' of component 'Reg' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd:101]
+INFO: [Synth 8-256] done synthesizing module 'RegisterBank' (5#1) [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd:22]
+INFO: [Synth 8-3491] module 'AddSubUnit' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/AddSubUnit.vhd:8' bound to instance 'AddSubUnit0' of component 'AddSubUnit' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/new/NanoProcessor.vhd:172]
+INFO: [Synth 8-638] synthesizing module 'AddSubUnit' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/AddSubUnit.vhd:17]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/AddSubUnit.vhd:34]
+INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/HA.vhd:34' bound to instance 'HA_0' of component 'HA' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/FA.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/HA.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'HA' (6#1) [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/HA.vhd:41]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/HA.vhd:34' bound to instance 'HA_1' of component 'HA' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/FA.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'FA' (7#1) [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/AddSubUnit.vhd:42]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/AddSubUnit.vhd:50]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_3' of component 'FA' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/AddSubUnit.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'AddSubUnit' (8#1) [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/AddSubUnit.vhd:17]
+INFO: [Synth 8-3491] module 'Mux8Way4Bit' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/new/8Way4BitMux.vhd:8' bound to instance 'Mux8Way4Bit0' of component 'Mux8Way4Bit' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/new/NanoProcessor.vhd:181]
+INFO: [Synth 8-638] synthesizing module 'Mux8Way4Bit' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/new/8Way4BitMux.vhd:21]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_A' of component 'Mux_8_to_1' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/new/8Way4BitMux.vhd:34]
+INFO: [Synth 8-638] synthesizing module 'Mux_8_to_1' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd:41]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:34' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd:54]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8_to_1' (9#1) [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd:41]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_B' of component 'Mux_8_to_1' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/new/8Way4BitMux.vhd:51]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_C' of component 'Mux_8_to_1' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/new/8Way4BitMux.vhd:68]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_D' of component 'Mux_8_to_1' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/new/8Way4BitMux.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'Mux8Way4Bit' (10#1) [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/new/8Way4BitMux.vhd:21]
+INFO: [Synth 8-3491] module 'Mux8Way4Bit' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/new/8Way4BitMux.vhd:8' bound to instance 'Mux8Way4Bit1' of component 'Mux8Way4Bit' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/new/NanoProcessor.vhd:194]
+INFO: [Synth 8-3491] module 'Adder3Bit' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/Adder3Bit/Adder3Bit.srcs/sources_1/new/Adder3Bit.vhd:5' bound to instance 'Adder3Bit0' of component 'Adder3Bit' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/new/NanoProcessor.vhd:207]
+INFO: [Synth 8-638] synthesizing module 'Adder3Bit' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/Adder3Bit/Adder3Bit.srcs/sources_1/new/Adder3Bit.vhd:11]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/Adder3Bit/Adder3Bit.srcs/sources_1/new/Adder3Bit.vhd:25]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/Adder3Bit/Adder3Bit.srcs/sources_1/new/Adder3Bit.vhd:32]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/Adder3Bit/Adder3Bit.srcs/sources_1/new/Adder3Bit.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Adder3Bit' (11#1) [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/Adder3Bit/Adder3Bit.srcs/sources_1/new/Adder3Bit.vhd:11]
+INFO: [Synth 8-3491] module 'Mux2Way3Bit' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/Mux2Way3Bit/Mux2Way3Bit.srcs/sources_1/new/Mux2Way3Bit.vhd:7' bound to instance 'Mux2Way3Bit0' of component 'Mux2Way3Bit' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/new/NanoProcessor.vhd:213]
+INFO: [Synth 8-638] synthesizing module 'Mux2Way3Bit' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/Mux2Way3Bit/Mux2Way3Bit.srcs/sources_1/new/Mux2Way3Bit.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Mux2Way3Bit' (12#1) [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/Mux2Way3Bit/Mux2Way3Bit.srcs/sources_1/new/Mux2Way3Bit.vhd:14]
+INFO: [Synth 8-3491] module 'Mux2Way4Bit' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/2Way4BitMux/2Way4BitMux.srcs/sources_1/new/2Way4BitMux.vhd:7' bound to instance 'Mux2Way4Bit0' of component 'Mux2Way4Bit' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/new/NanoProcessor.vhd:220]
+INFO: [Synth 8-638] synthesizing module 'Mux2Way4Bit' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/2Way4BitMux/2Way4BitMux.srcs/sources_1/new/2Way4BitMux.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Mux2Way4Bit' (13#1) [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/2Way4BitMux/2Way4BitMux.srcs/sources_1/new/2Way4BitMux.vhd:14]
+INFO: [Synth 8-3491] module 'ProgramCounter' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.vhd:5' bound to instance 'ProgramCounter0' of component 'ProgramCounter' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/new/NanoProcessor.vhd:227]
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (14#1) [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.vhd:12]
+INFO: [Synth 8-3491] module 'Slow_Clk' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/new/Slow_Clk.vhd:4' bound to instance 'Slow_Clk0' of component 'Slow_Clk' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/new/NanoProcessor.vhd:234]
+INFO: [Synth 8-638] synthesizing module 'Slow_Clk' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/new/Slow_Clk.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'Slow_Clk' (15#1) [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/new/Slow_Clk.vhd:9]
+INFO: [Synth 8-3491] module 'LUT_16_7' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/new/LUT_16_7.vhd:35' bound to instance 'LUT_16_7_0' of component 'LUT_16_7' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/new/NanoProcessor.vhd:239]
+INFO: [Synth 8-638] synthesizing module 'LUT_16_7' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/new/LUT_16_7.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'LUT_16_7' (16#1) [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/new/LUT_16_7.vhd:40]
+INFO: [Synth 8-3491] module 'RAM' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/new/RAM.vhd:4' bound to instance 'RAM0' of component 'RAM' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/new/NanoProcessor.vhd:244]
+INFO: [Synth 8-638] synthesizing module 'RAM' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/new/RAM.vhd:14]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:34' bound to instance 'Decoder' of component 'Decoder_3_to_8' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/new/RAM.vhd:56]
+INFO: [Synth 8-3491] module 'RegRam' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/new/RegRam.vhd:5' bound to instance 'Reg0' of component 'RegRam' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/new/RAM.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'RegRam' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/new/RegRam.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'RegRam' (17#1) [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/new/RegRam.vhd:13]
+INFO: [Synth 8-3491] module 'RegRam' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/new/RegRam.vhd:5' bound to instance 'Reg1' of component 'RegRam' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/new/RAM.vhd:68]
+INFO: [Synth 8-3491] module 'RegRam' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/new/RegRam.vhd:5' bound to instance 'Reg2' of component 'RegRam' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/new/RAM.vhd:75]
+INFO: [Synth 8-3491] module 'RegRam' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/new/RegRam.vhd:5' bound to instance 'Reg3' of component 'RegRam' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/new/RAM.vhd:82]
+INFO: [Synth 8-3491] module 'RegRam' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/new/RegRam.vhd:5' bound to instance 'Reg4' of component 'RegRam' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/new/RAM.vhd:89]
+INFO: [Synth 8-3491] module 'RegRam' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/new/RegRam.vhd:5' bound to instance 'Reg5' of component 'RegRam' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/new/RAM.vhd:96]
+INFO: [Synth 8-3491] module 'RegRam' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/new/RegRam.vhd:5' bound to instance 'Reg6' of component 'RegRam' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/new/RAM.vhd:103]
+INFO: [Synth 8-3491] module 'RegRam' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/new/RegRam.vhd:5' bound to instance 'Reg7' of component 'RegRam' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/new/RAM.vhd:110]
+INFO: [Synth 8-3491] module 'Mux8Way12Bit' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/imports/VivadoProjects/Mux8Way12Bit/Mux8Way12Bit.srcs/sources_1/new/Mux8Way12Bit.vhd:6' bound to instance 'muxOut' of component 'Mux8Way12Bit' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/new/RAM.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'Mux8Way12Bit' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/imports/VivadoProjects/Mux8Way12Bit/Mux8Way12Bit.srcs/sources_1/new/Mux8Way12Bit.vhd:19]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_0' of component 'Mux_8_to_1' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/imports/VivadoProjects/Mux8Way12Bit/Mux8Way12Bit.srcs/sources_1/new/Mux8Way12Bit.vhd:32]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_1' of component 'Mux_8_to_1' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/imports/VivadoProjects/Mux8Way12Bit/Mux8Way12Bit.srcs/sources_1/new/Mux8Way12Bit.vhd:49]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_2' of component 'Mux_8_to_1' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/imports/VivadoProjects/Mux8Way12Bit/Mux8Way12Bit.srcs/sources_1/new/Mux8Way12Bit.vhd:66]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_3' of component 'Mux_8_to_1' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/imports/VivadoProjects/Mux8Way12Bit/Mux8Way12Bit.srcs/sources_1/new/Mux8Way12Bit.vhd:83]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_4' of component 'Mux_8_to_1' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/imports/VivadoProjects/Mux8Way12Bit/Mux8Way12Bit.srcs/sources_1/new/Mux8Way12Bit.vhd:100]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_5' of component 'Mux_8_to_1' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/imports/VivadoProjects/Mux8Way12Bit/Mux8Way12Bit.srcs/sources_1/new/Mux8Way12Bit.vhd:117]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_6' of component 'Mux_8_to_1' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/imports/VivadoProjects/Mux8Way12Bit/Mux8Way12Bit.srcs/sources_1/new/Mux8Way12Bit.vhd:134]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_7' of component 'Mux_8_to_1' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/imports/VivadoProjects/Mux8Way12Bit/Mux8Way12Bit.srcs/sources_1/new/Mux8Way12Bit.vhd:151]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_8' of component 'Mux_8_to_1' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/imports/VivadoProjects/Mux8Way12Bit/Mux8Way12Bit.srcs/sources_1/new/Mux8Way12Bit.vhd:168]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_9' of component 'Mux_8_to_1' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/imports/VivadoProjects/Mux8Way12Bit/Mux8Way12Bit.srcs/sources_1/new/Mux8Way12Bit.vhd:185]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_10' of component 'Mux_8_to_1' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/imports/VivadoProjects/Mux8Way12Bit/Mux8Way12Bit.srcs/sources_1/new/Mux8Way12Bit.vhd:202]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_11' of component 'Mux_8_to_1' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/imports/VivadoProjects/Mux8Way12Bit/Mux8Way12Bit.srcs/sources_1/new/Mux8Way12Bit.vhd:219]
+INFO: [Synth 8-256] done synthesizing module 'Mux8Way12Bit' (18#1) [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/imports/VivadoProjects/Mux8Way12Bit/Mux8Way12Bit.srcs/sources_1/new/Mux8Way12Bit.vhd:19]
+INFO: [Synth 8-3491] module 'Mux8Way12Bit' declared at 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/imports/VivadoProjects/Mux8Way12Bit/Mux8Way12Bit.srcs/sources_1/new/Mux8Way12Bit.vhd:6' bound to instance 'muxLED' of component 'Mux8Way12Bit' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/new/RAM.vhd:129]
+INFO: [Synth 8-256] done synthesizing module 'RAM' (19#1) [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/sources_1/new/RAM.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'NanoProcessor' (20#1) [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/new/NanoProcessor.vhd:17]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 437.621 ; gain = 150.242
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 437.621 ; gain = 150.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 437.621 ; gain = 150.242
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/constrs_1/imports/VivadoProjects/Basys3Labs.xdc]
+Finished Parsing XDC File [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/constrs_1/imports/VivadoProjects/Basys3Labs.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/constrs_1/imports/VivadoProjects/Basys3Labs.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/NanoProcessor_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/NanoProcessor_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 775.305 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 775.305 ; gain = 487.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 775.305 ; gain = 487.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 775.305 ; gain = 487.926
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "RegASelect" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RegASelect" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RegBSelect" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RegBSelect" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "AddSubSelect" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LoadSelect" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "JumpFlag" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "sevenSegment_ROM" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "InstructionIn0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "InstructionIn0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "startCounter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "AnodeSelect" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "AnodeSelect" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "AnodeSelect" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "S_temp" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "S_temp" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "S_temp" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-327] inferring latch for variable 'JumpAddress_reg' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/InstructionDecoder/InstructionDecoder.srcs/sources_1/new/InstructionDecoder.vhd:69]
+WARNING: [Synth 8-327] inferring latch for variable 'AddSubSelect_reg' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/InstructionDecoder/InstructionDecoder.srcs/sources_1/new/InstructionDecoder.vhd:28]
+WARNING: [Synth 8-327] inferring latch for variable 'RegisterEnable_reg' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/InstructionDecoder/InstructionDecoder.srcs/sources_1/new/InstructionDecoder.vhd:30]
+WARNING: [Synth 8-327] inferring latch for variable 'LoadSelect_reg' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/InstructionDecoder/InstructionDecoder.srcs/sources_1/new/InstructionDecoder.vhd:29]
+WARNING: [Synth 8-327] inferring latch for variable 'ImmediateValue_reg' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/InstructionDecoder/InstructionDecoder.srcs/sources_1/new/InstructionDecoder.vhd:44]
+WARNING: [Synth 8-327] inferring latch for variable 'RegASelect_reg' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/InstructionDecoder/InstructionDecoder.srcs/sources_1/new/InstructionDecoder.vhd:26]
+WARNING: [Synth 8-327] inferring latch for variable 'RegBSelect_reg' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/InstructionDecoder/InstructionDecoder.srcs/sources_1/new/InstructionDecoder.vhd:27]
+WARNING: [Synth 8-327] inferring latch for variable 'JumpFlag_reg' [C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.srcs/sources_1/imports/VivadoProjects/InstructionDecoder/InstructionDecoder.srcs/sources_1/new/InstructionDecoder.vhd:31]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 775.305 ; gain = 487.926
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 18    
++---Registers : 
+	               32 Bit    Registers := 3     
+	               12 Bit    Registers := 16    
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 9     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 1     
+	  33 Input      7 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 4     
+	   5 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 4     
+	   3 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 43    
+	   3 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module NanoProcessor 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 2     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   3 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 2     
+Module InstructionDecoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 36    
+	   3 Input      1 Bit        Muxes := 2     
+Module Reg 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module AddSubUnit 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
+Module ProgramCounter 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+Module Slow_Clk 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module LUT_16_7 
+Detailed RTL Component Info : 
++---Muxes : 
+	  33 Input      7 Bit        Muxes := 1     
+Module RegRam 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
+Module RAM 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	               12 Bit    Registers := 8     
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "startCounter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "InstructionIn0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "InstructionIn0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "AnodeSelect" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "AnodeSelect" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "AnodeSelect" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "S_temp" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "S_temp" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Slow_Clk0/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Slow_Clk0/clk_status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RAM0/startCounter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RAM0/InstructionIn0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "RAM0/InstructionIn0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "AnodeSelect" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "AnodeSelect" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "AnodeSelect" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "S_temp" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "S_temp" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[30]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[31]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[29]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[28]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[27]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[26]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[25]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[24]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[23]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[22]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[21]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[20]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[19]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[18]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[17]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[16]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[15]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[14]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[13]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[12]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[11]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[10]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[9]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[8]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[7]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[6]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[5]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[4]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/startCounter_reg[3]' (FDE) to 'RAM0/startCounter_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RAM0/startCounter_reg[2] )
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn0_reg[0]' (FDRE) to 'RAM0/InstructionIn6_reg[0]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn7_reg[0]' (FDSE) to 'RAM0/InstructionIn3_reg[0]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn6_reg[0]' (FDRE) to 'RAM0/InstructionIn5_reg[0]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn5_reg[0]' (FDRE) to 'RAM0/InstructionIn4_reg[0]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn4_reg[0]' (FDRE) to 'RAM0/InstructionIn2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn3_reg[0]' (FDSE) to 'RAM0/InstructionIn1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn0_reg[1]' (FDRE) to 'RAM0/InstructionIn6_reg[1]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn7_reg[1]' (FDSE) to 'RAM0/InstructionIn3_reg[1]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn6_reg[1]' (FDRE) to 'RAM0/InstructionIn5_reg[1]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn5_reg[1]' (FDRE) to 'RAM0/InstructionIn4_reg[1]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn4_reg[1]' (FDRE) to 'RAM0/InstructionIn1_reg[1]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn3_reg[1]' (FDSE) to 'RAM0/InstructionIn2_reg[1]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn0_reg[2]' (FDRE) to 'RAM0/InstructionIn6_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn6_reg[2]' (FDRE) to 'RAM0/InstructionIn5_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn5_reg[2]' (FDRE) to 'RAM0/InstructionIn4_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn4_reg[2]' (FDRE) to 'RAM0/InstructionIn3_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn3_reg[2]' (FDRE) to 'RAM0/InstructionIn2_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn2_reg[2]' (FDRE) to 'RAM0/InstructionIn1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn0_reg[3]' (FDRE) to 'RAM0/InstructionIn7_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn7_reg[3]' (FDRE) to 'RAM0/InstructionIn6_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn6_reg[3]' (FDRE) to 'RAM0/InstructionIn5_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn5_reg[3]' (FDRE) to 'RAM0/InstructionIn4_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn4_reg[3]' (FDRE) to 'RAM0/InstructionIn3_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn3_reg[3]' (FDRE) to 'RAM0/InstructionIn2_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn2_reg[3]' (FDRE) to 'RAM0/InstructionIn1_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn0_reg[4]' (FDRE) to 'RAM0/InstructionIn7_reg[4]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn7_reg[4]' (FDRE) to 'RAM0/InstructionIn5_reg[4]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn6_reg[4]' (FDSE) to 'RAM0/InstructionIn4_reg[4]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn5_reg[4]' (FDRE) to 'RAM0/InstructionIn3_reg[4]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn3_reg[4]' (FDRE) to 'RAM0/InstructionIn2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn2_reg[4]' (FDRE) to 'RAM0/InstructionIn1_reg[4]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn0_reg[5]' (FDRE) to 'RAM0/InstructionIn7_reg[5]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn7_reg[5]' (FDRE) to 'RAM0/InstructionIn4_reg[5]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn6_reg[5]' (FDSE) to 'RAM0/InstructionIn5_reg[5]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn4_reg[5]' (FDRE) to 'RAM0/InstructionIn3_reg[5]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn3_reg[5]' (FDRE) to 'RAM0/InstructionIn2_reg[5]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn2_reg[5]' (FDRE) to 'RAM0/InstructionIn1_reg[5]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn0_reg[6]' (FDRE) to 'RAM0/InstructionIn7_reg[6]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn7_reg[6]' (FDRE) to 'RAM0/InstructionIn6_reg[6]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn6_reg[6]' (FDRE) to 'RAM0/InstructionIn5_reg[6]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn5_reg[6]' (FDRE) to 'RAM0/InstructionIn4_reg[6]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn4_reg[6]' (FDRE) to 'RAM0/InstructionIn3_reg[6]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn3_reg[6]' (FDRE) to 'RAM0/InstructionIn2_reg[6]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn2_reg[6]' (FDRE) to 'RAM0/InstructionIn1_reg[6]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn0_reg[7]' (FDSE) to 'RAM0/InstructionIn6_reg[7]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn7_reg[7]' (FDRE) to 'RAM0/InstructionIn2_reg[7]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn6_reg[7]' (FDSE) to 'RAM0/InstructionIn5_reg[7]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn5_reg[7]' (FDSE) to 'RAM0/InstructionIn4_reg[7]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn4_reg[7]' (FDSE) to 'RAM0/InstructionIn3_reg[7]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn3_reg[7]' (FDSE) to 'RAM0/InstructionIn1_reg[7]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn0_reg[8]' (FDSE) to 'RAM0/InstructionIn6_reg[8]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn7_reg[8]' (FDRE) to 'RAM0/InstructionIn1_reg[8]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn6_reg[8]' (FDSE) to 'RAM0/InstructionIn5_reg[8]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn5_reg[8]' (FDSE) to 'RAM0/InstructionIn4_reg[8]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn4_reg[8]' (FDSE) to 'RAM0/InstructionIn3_reg[8]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn3_reg[8]' (FDSE) to 'RAM0/InstructionIn2_reg[8]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn0_reg[9]' (FDSE) to 'RAM0/InstructionIn6_reg[9]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn7_reg[9]' (FDRE) to 'RAM0/InstructionIn3_reg[9]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn6_reg[9]' (FDSE) to 'RAM0/InstructionIn5_reg[9]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn5_reg[9]' (FDSE) to 'RAM0/InstructionIn4_reg[9]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn3_reg[9]' (FDRE) to 'RAM0/InstructionIn2_reg[9]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn2_reg[9]' (FDRE) to 'RAM0/InstructionIn1_reg[9]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn0_reg[10]' (FDRE) to 'RAM0/InstructionIn6_reg[10]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn6_reg[10]' (FDRE) to 'RAM0/InstructionIn5_reg[10]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn5_reg[10]' (FDRE) to 'RAM0/InstructionIn4_reg[10]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn4_reg[10]' (FDRE) to 'RAM0/InstructionIn3_reg[10]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn3_reg[10]' (FDRE) to 'RAM0/InstructionIn2_reg[10]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn2_reg[10]' (FDRE) to 'RAM0/InstructionIn1_reg[10]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn0_reg[11]' (FDSE) to 'RAM0/InstructionIn7_reg[11]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn7_reg[11]' (FDSE) to 'RAM0/InstructionIn3_reg[11]'
+INFO: [Synth 8-3886] merging instance 'RAM0/InstructionIn6_reg[11]' (FDRE) to 'RAM0/InstructionIn5_reg[11]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RegisterBank0/Reg0/Q_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (RegisterBank0/Reg0/Q_reg[1]) is unused and will be removed from module NanoProcessor.
+WARNING: [Synth 8-3332] Sequential element (RAM0/startCounter_reg[2]) is unused and will be removed from module NanoProcessor.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 775.305 ; gain = 487.926
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:26 . Memory (MB): peak = 775.305 ; gain = 487.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:27 . Memory (MB): peak = 823.883 ; gain = 536.504
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:27 . Memory (MB): peak = 825.004 ; gain = 537.625
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:28 . Memory (MB): peak = 825.004 ; gain = 537.625
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:28 . Memory (MB): peak = 825.004 ; gain = 537.625
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:28 . Memory (MB): peak = 825.004 ; gain = 537.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:28 . Memory (MB): peak = 825.004 ; gain = 537.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:28 . Memory (MB): peak = 825.004 ; gain = 537.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:28 . Memory (MB): peak = 825.004 ; gain = 537.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    16|
+|3     |LUT1   |     2|
+|4     |LUT2   |    26|
+|5     |LUT3   |    38|
+|6     |LUT4   |    30|
+|7     |LUT5   |    96|
+|8     |LUT6   |   120|
+|9     |FDRE   |   216|
+|10    |FDSE   |    21|
+|11    |LD     |    16|
+|12    |LDC    |     2|
+|13    |LDP    |     1|
+|14    |IBUF   |    18|
+|15    |OBUF   |    25|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------------------+-------------------+------+
+|      |Instance               |Module             |Cells |
++------+-----------------------+-------------------+------+
+|1     |top                    |                   |   629|
+|2     |  InstructionDecoder0  |InstructionDecoder |    50|
+|3     |  ProgramCounter0      |ProgramCounter     |    85|
+|4     |  RAM0                 |RAM                |   188|
+|5     |    Reg0               |RegRam             |    18|
+|6     |    Reg1               |RegRam_7           |    13|
+|7     |    Reg2               |RegRam_8           |    13|
+|8     |    Reg3               |RegRam_9           |    25|
+|9     |    Reg4               |RegRam_10          |    22|
+|10    |    Reg5               |RegRam_11          |    17|
+|11    |    Reg6               |RegRam_12          |    17|
+|12    |    Reg7               |RegRam_13          |    19|
+|13    |  RegisterBank0        |RegisterBank       |    65|
+|14    |    Decoder            |Decoder_3_to_8     |     7|
+|15    |      Decoder_2_to_4_0 |Decoder_2_to_4     |     3|
+|16    |      Decoder_2_to_4_1 |Decoder_2_to_4_6   |     4|
+|17    |    Reg1               |Reg                |     4|
+|18    |    Reg2               |Reg_0              |     6|
+|19    |    Reg3               |Reg_1              |    14|
+|20    |    Reg4               |Reg_2              |     4|
+|21    |    Reg5               |Reg_3              |    11|
+|22    |    Reg6               |Reg_4              |     9|
+|23    |    Reg7               |Reg_5              |    10|
+|24    |  Slow_Clk0            |Slow_Clk           |    54|
++------+-----------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:28 . Memory (MB): peak = 825.004 ; gain = 537.625
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:22 . Memory (MB): peak = 825.004 ; gain = 199.941
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:28 . Memory (MB): peak = 825.004 ; gain = 537.625
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 53 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 19 instances were transformed.
+  LD => LDCE: 16 instances
+  LDC => LDCE: 2 instances
+  LDP => LDPE: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+257 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:31 . Memory (MB): peak = 825.004 ; gain = 549.793
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Deshitha/VivadoProjects/NanoProcessor_Upgrade7SubNot/NanoProcessor_Upgrade7SubNot.runs/synth_1/NanoProcessor.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file NanoProcessor_utilization_synth.rpt -pb NanoProcessor_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 825.004 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 13 14:07:39 2023...

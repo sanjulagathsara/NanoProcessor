@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1686645421">
+  <File Type="PA-TCL" Name="NanoProcessor.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="NanoProcessor_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="NanoProcessor_reports.tcl"/>
+  <File Type="RDS-RDS" Name="NanoProcessor.vds"/>
+  <File Type="RDS-UTIL" Name="NanoProcessor_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="NanoProcessor_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="NanoProcessor.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="NanoProcessor_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="NanoProcessor_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/2Way4BitMux/2Way4BitMux.srcs/sources_1/new/2Way4BitMux.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../2Way4BitMux/2Way4BitMux.srcs/sources_1/new/2Way4BitMux.vhd"/>
+        <Attr Name="ImportTime" Val="1684829082"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/new/8Way4BitMux.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../8Way4BitMux/8Way4BitMux.srcs/sources_1/new/8Way4BitMux.vhd"/>
+        <Attr Name="ImportTime" Val="1684825466"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/AddSubUnit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/AddSubUnit.vhd"/>
+        <Attr Name="ImportTime" Val="1684351814"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/Adder3Bit/Adder3Bit.srcs/sources_1/new/Adder3Bit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Adder3Bit/Adder3Bit.srcs/sources_1/new/Adder3Bit.vhd"/>
+        <Attr Name="ImportTime" Val="1684831567"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_2_to_4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_2_to_4.vhd"/>
+        <Attr Name="ImportTime" Val="1679400714"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_3_to_8.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Decoder_3_to_8.vhd"/>
+        <Attr Name="ImportTime" Val="1679485943"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/FA.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/FA.vhd"/>
+        <Attr Name="ImportTime" Val="1678809671"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/HA.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../AddSubUnit/AddSubUnit.srcs/sources_1/imports/new/HA.vhd"/>
+        <Attr Name="ImportTime" Val="1678800125"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/InstructionDecoder/InstructionDecoder.srcs/sources_1/new/InstructionDecoder.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../InstructionDecoder/InstructionDecoder.srcs/sources_1/new/InstructionDecoder.vhd"/>
+        <Attr Name="ImportTime" Val="1685477926"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/LUT_16_7.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab 7/Lab 7.srcs/sources_1/new/LUT_16_7.vhd"/>
+        <Attr Name="ImportTime" Val="1683178807"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/Mux2Way3Bit/Mux2Way3Bit.srcs/sources_1/new/Mux2Way3Bit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Mux2Way3Bit/Mux2Way3Bit.srcs/sources_1/new/Mux2Way3Bit.vhd"/>
+        <Attr Name="ImportTime" Val="1684830082"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/VivadoProjects/Mux8Way12Bit/Mux8Way12Bit.srcs/sources_1/new/Mux8Way12Bit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RAM/RAM.srcs/sources_1/imports/VivadoProjects/Mux8Way12Bit/Mux8Way12Bit.srcs/sources_1/new/Mux8Way12Bit.vhd"/>
+        <Attr Name="ImportTime" Val="1686303939"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../8Way4BitMux/8Way4BitMux.srcs/sources_1/imports/new/Mux_8_to_1.vhd"/>
+        <Attr Name="ImportTime" Val="1679491566"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.vhd"/>
+        <Attr Name="ImportTime" Val="1684869042"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/RAM.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RAM/RAM.srcs/sources_1/new/RAM.vhd"/>
+        <Attr Name="ImportTime" Val="1686305206"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Reg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RegisterBank/RegisterBank.srcs/sources_1/imports/new/Reg.vhd"/>
+        <Attr Name="ImportTime" Val="1684866228"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/RegRam.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RegRam/RegRam.srcs/sources_1/new/RegRam.vhd"/>
+        <Attr Name="ImportTime" Val="1686306833"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VivadoProjects/RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd"/>
+        <Attr Name="ImportTime" Val="1684866582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Slow_Clk.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab 5/Lab 5.srcs/sources_1/new/Slow_Clk.vhd"/>
+        <Attr Name="ImportTime" Val="1683623091"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/NanoProcessor.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Nanoprocessor/Nanoprocessor.srcs/sources_1/new/NanoProcessor.vhd"/>
+        <Attr Name="ImportTime" Val="1685559856"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="NanoProcessor"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/VivadoProjects/Basys3Labs.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Basys3Labs.xdc"/>
+        <Attr Name="ImportTime" Val="1679595716"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
